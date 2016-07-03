@@ -2,7 +2,7 @@
 title: "Final Project, Practical Machine Learning"
 author: "Patrick Applegate, applegatepj@gmail.com"
 date: "1 July 2016"
-output: html_document
+output: pdf_document
 ---
 
 # Introduction
@@ -49,3 +49,8 @@ print(confusionMatrix(fit))
 
 The random forests algorithm seems to be highly satisfactory for this problem.  The largest off-diagonal value in the confusion matrix is 0.5, for cases in which the algorithm predicted C but the correct answer was D.  This misclassification represents one area in which the calibration of the algorithm could be improved in future work.  
 
+# Bibliography
+
+Velloso, E., Bulling, A., Gellersen, H., Ugulino, W., Fuks, H., 2013.  Qualitative Activity Recognition of Weight Lifting Exercises.  Proceedings of 4th Augmented Human (AH) International Conference in cooperation with ACM SIGCHI (Augmented Human '13) . Available online at http://groupware.les.inf.puc-rio.br/public/papers/2013.Velloso.QAR-WLE.pdf.  
+
+Verzani, J., 2014.  Using R for Introductory Statistics (2nd ed).  CRC Press.  
